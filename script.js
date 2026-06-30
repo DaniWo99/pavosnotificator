@@ -9,9 +9,11 @@ async function main() {
 
     const data = await response.json();
 
+    // Solo para depuración
     fs.writeFileSync("api.json", JSON.stringify(data, null, 2));
 
     let total = 0;
+    let texto = "";
     let missions = [];
 
     for (const [zone, zoneMissions] of Object.entries(data.missions || {})) {
@@ -31,24 +33,53 @@ async function main() {
 
                     const amount = reward.quantity || 0;
 
-                    console.log(
-                        `${amount} - ${zone} PL${mission.pl} - ${mission.missionType?.name}`
-                    );
-
                     total += amount;
 
+                    const zonaBonita = {
+                        stonewood: "🌲 Stonewood",
+                        plankerton: "🌿 Plankerton",
+                        canny: "🏜️ Canny Valley",
+                        twine: "⚡ Twine Peaks",
+                        ventures: "🚀 Ventures"
+                    }[zone] || zone;
+
                     missions.push({
-                        zone,
+                        zone: zonaBonita,
                         pl: mission.pl,
-                        mission: mission.missionType?.name,
+                        mission: mission.missionType?.name || "Unknown",
                         amount
                     });
+
+                    console.log(
+                        `${amount} - ${zonaBonita} PL${mission.pl} - ${mission.missionType?.name}`
+                    );
                 }
             }
         }
     }
 
-    fs.writeFileSync("vbucks.txt", String(total));
+    if (total === 0) {
+
+        texto = "0";
+
+    } else {
+
+        texto = `🚨 ${total} V-Bucks disponibles\n\n`;
+
+        for (const m of missions) {
+
+            texto += `${m.zone} • PL${m.pl}\n`;
+            texto += `⚔️ ${m.mission}\n`;
+            texto += `💰 ${m.amount} V-Bucks\n\n`;
+
+        }
+
+        texto += `🕒 Actualizado: ${new Date().toLocaleString("es-CO", {
+            timeZone: "America/Bogota"
+        })}`;
+    }
+
+    fs.writeFileSync("vbucks.txt", texto);
 
     fs.writeFileSync(
         "status.json",
@@ -59,7 +90,12 @@ async function main() {
         }, null, 2)
     );
 
-    console.log(`TOTAL: ${total}`);
+    console.log("\n==========================");
+    console.log(texto);
+    console.log("==========================");
 }
 
-main().catch(console.error);
+main().catch(err => {
+    console.error(err);
+    process.exit(1);
+});
