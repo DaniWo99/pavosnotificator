@@ -1,28 +1,20 @@
 const fs = require("fs");
 
 async function main() {
-    console.log("Descargando API...");
-
-    const response = await fetch("https://pennydb.net/api/");
+    const response = await fetch("https://pennydb.net/api");
 
     if (!response.ok) {
-        throw new Error(`Error HTTP ${response.status}`);
+        throw new Error(`HTTP ${response.status}`);
     }
 
     const data = await response.json();
 
-    // ====== GUARDA LA API COMPLETA ======
-    fs.writeFileSync(
-        "api.json",
-        JSON.stringify(data, null, 2)
-    );
+    fs.writeFileSync("api.json", JSON.stringify(data, null, 2));
 
     let total = 0;
     let missions = [];
 
-    const zones = data.missions || {};
-
-    for (const [zone, zoneMissions] of Object.entries(zones)) {
+    for (const [zone, zoneMissions] of Object.entries(data.missions || {})) {
 
         for (const mission of zoneMissions) {
 
@@ -35,34 +27,28 @@ async function main() {
 
                 const name = (reward.name || "").toLowerCase();
 
-                if (
-                    name.includes("v-buck") ||
-                    name.includes("vbuck")
-                ) {
+                if (name.includes("v-buck") || name.includes("vbuck")) {
 
                     const amount = reward.quantity || 0;
+
+                    console.log(
+                        `${amount} - ${zone} PL${mission.pl} - ${mission.missionType?.name}`
+                    );
 
                     total += amount;
 
                     missions.push({
                         zone,
-                        powerLevel: mission.pl,
-                        mission: mission.missionType?.name || "Unknown",
+                        pl: mission.pl,
+                        mission: mission.missionType?.name,
                         amount
                     });
-
                 }
-
             }
-
         }
-
     }
 
-    fs.writeFileSync(
-        "vbucks.txt",
-        String(total)
-    );
+    fs.writeFileSync("vbucks.txt", String(total));
 
     fs.writeFileSync(
         "status.json",
@@ -73,13 +59,7 @@ async function main() {
         }, null, 2)
     );
 
-    console.log("=================================");
-    console.log("V-Bucks:", total);
-    console.log("Misiones:", missions.length);
-    console.log("=================================");
+    console.log(`TOTAL: ${total}`);
 }
 
-main().catch(err => {
-    console.error(err);
-    process.exit(1);
-});
+main().catch(console.error);
