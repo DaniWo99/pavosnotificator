@@ -60,6 +60,7 @@ async function main() {
 
     if (total === 0) {
 
+        // Si no hay V-Bucks, el archivo contendrá únicamente un 0
         texto = "0";
 
     } else {
@@ -74,9 +75,8 @@ async function main() {
 
         }
 
-        texto += `🕒 Actualizado: ${new Date().toLocaleString("es-CO", {
-            timeZone: "America/Bogota"
-        })}`;
+        // Quitamos la línea de "Actualizado"
+        texto = texto.trimEnd();
     }
 
     fs.writeFileSync("vbucks.txt", texto);
