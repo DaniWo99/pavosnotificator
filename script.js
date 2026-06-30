@@ -1,20 +1,30 @@
 const fs = require("fs");
 
 async function main() {
+    console.log("Descargando API...");
+
     const response = await fetch("https://pennydb.net/api/");
 
     if (!response.ok) {
-        throw new Error(`Error ${response.status}`);
+        throw new Error(`Error HTTP ${response.status}`);
     }
 
     const data = await response.json();
 
+    // ====== GUARDA LA API COMPLETA ======
+    fs.writeFileSync(
+        "api.json",
+        JSON.stringify(data, null, 2)
+    );
+
     let total = 0;
-    let misiones = [];
+    let missions = [];
 
-    for (const [zona, lista] of Object.entries(data.missions || {})) {
+    const zones = data.missions || {};
 
-        for (const mission of lista) {
+    for (const [zone, zoneMissions] of Object.entries(zones)) {
+
+        for (const mission of zoneMissions) {
 
             const rewards = [
                 ...(mission.rewards || []),
@@ -24,26 +34,21 @@ async function main() {
             for (const reward of rewards) {
 
                 const name = (reward.name || "").toLowerCase();
-                const type = (reward.itemType || "").toLowerCase();
 
-                const esVBuck =
+                if (
                     name.includes("v-buck") ||
-                    name.includes("vbuck") ||
-                    name.includes("v bucks") ||
-                    type.includes("currency_mtx") ||
-                    type.includes("mtx");
+                    name.includes("vbuck")
+                ) {
 
-                if (esVBuck) {
+                    const amount = reward.quantity || 0;
 
-                    const cantidad = reward.quantity || 1;
+                    total += amount;
 
-                    total += cantidad;
-
-                    misiones.push({
-                        zona,
-                        cantidad,
-                        nombre: mission.name || "Sin nombre",
-                        powerLevel: mission.powerLevel || mission.pl || null
+                    missions.push({
+                        zone,
+                        powerLevel: mission.pl,
+                        mission: mission.missionType?.name || "Unknown",
+                        amount
                     });
 
                 }
@@ -54,18 +59,24 @@ async function main() {
 
     }
 
-    fs.writeFileSync("vbucks.txt", String(total));
+    fs.writeFileSync(
+        "vbucks.txt",
+        String(total)
+    );
 
     fs.writeFileSync(
         "status.json",
         JSON.stringify({
             total,
             updated: new Date().toISOString(),
-            missions: misiones
+            missions
         }, null, 2)
     );
 
-    console.log("V-Bucks encontrados:", total);
+    console.log("=================================");
+    console.log("V-Bucks:", total);
+    console.log("Misiones:", missions.length);
+    console.log("=================================");
 }
 
 main().catch(err => {
