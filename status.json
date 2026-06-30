@@ -1,12 +1,12 @@
 {
   "total": 50,
-  "updated": "2026-06-30T00:10:21.118Z",
+  "updated": "2026-06-30T00:13:36.907Z",
   "missions": [
     {
-      "zona": "twine_peaks",
-      "cantidad": 50,
-      "nombre": "Sin nombre",
-      "powerLevel": "108"
+      "zone": "twine_peaks",
+      "powerLevel": "108",
+      "mission": "Fight Category 4 Storm",
+      "amount": 50
     }
   ]
 }
