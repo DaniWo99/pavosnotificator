@@ -1,5 +1,12 @@
 {
-  "total": 0,
-  "updated": "2026-07-01T04:50:18.283Z",
-  "missions": []
+  "total": 50,
+  "updated": "2026-07-02T04:18:13.066Z",
+  "missions": [
+    {
+      "zone": "🌲 Stonewood",
+      "pl": "5",
+      "mission": "Ride The Lightning",
+      "amount": 50
+    }
+  ]
 }
