@@ -1,18 +1,5 @@
 {
-  "total": 100,
-  "updated": "2026-07-19T03:46:42.565Z",
-  "missions": [
-    {
-      "zone": "🌲 Stonewood",
-      "pl": "5",
-      "mission": "Fight the Storm",
-      "amount": 50
-    },
-    {
-      "zone": "🌿 Plankerton",
-      "pl": "23",
-      "mission": "Fight the Storm",
-      "amount": 50
-    }
-  ]
+  "total": 0,
+  "updated": "2026-07-20T03:58:12.749Z",
+  "missions": []
 }
