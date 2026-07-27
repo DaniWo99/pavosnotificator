@@ -1,18 +1,5 @@
 {
-  "total": 100,
-  "updated": "2026-07-26T03:49:58.865Z",
-  "missions": [
-    {
-      "zone": "🌲 Stonewood",
-      "pl": "15",
-      "mission": "Ride The Lightning",
-      "amount": 50
-    },
-    {
-      "zone": "🌿 Plankerton",
-      "pl": "23",
-      "mission": "Fight Category 2 Storm",
-      "amount": 50
-    }
-  ]
+  "total": 0,
+  "updated": "2026-07-27T03:57:46.519Z",
+  "missions": []
 }
