@@ -1,11 +1,11 @@
 {
   "total": 50,
-  "updated": "2026-08-01T03:45:25.407Z",
+  "updated": "2026-08-02T03:47:29.467Z",
   "missions": [
     {
       "zone": "canny_valley",
-      "pl": "70",
-      "mission": "Retrieve the Data",
+      "pl": "58",
+      "mission": "Fight Category 3 Storm",
       "amount": 50
     }
   ]
