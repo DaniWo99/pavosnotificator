@@ -1,5 +1,12 @@
 {
-  "total": 0,
-  "updated": "2026-08-08T02:17:38.931Z",
-  "missions": []
+  "total": 50,
+  "updated": "2026-08-09T02:24:34.491Z",
+  "missions": [
+    {
+      "zone": "canny_valley",
+      "pl": "52",
+      "mission": "Fight Category 2 Storm",
+      "amount": 50
+    }
+  ]
 }
