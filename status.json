@@ -1,12 +1,5 @@
 {
-  "total": 50,
-  "updated": "2026-08-12T02:38:53.926Z",
-  "missions": [
-    {
-      "zone": "twine_peaks",
-      "pl": "82",
-      "mission": "Evacuate the Shelter",
-      "amount": 50
-    }
-  ]
+  "total": 0,
+  "updated": "2026-08-13T02:41:37.526Z",
+  "missions": []
 }
