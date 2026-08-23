@@ -1,18 +1,5 @@
 {
-  "total": 100,
-  "updated": "2026-08-22T01:46:58.376Z",
-  "missions": [
-    {
-      "zone": "🌿 Plankerton",
-      "pl": "28",
-      "mission": "Retrieve the Data",
-      "amount": 50
-    },
-    {
-      "zone": "twine_peaks",
-      "pl": "82",
-      "mission": "Fight the Storm",
-      "amount": 50
-    }
-  ]
+  "total": 0,
+  "updated": "2026-08-23T01:56:43.342Z",
+  "missions": []
 }
