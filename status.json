@@ -1,5 +1,12 @@
 {
-  "total": 0,
-  "updated": "2026-08-23T01:56:43.342Z",
-  "missions": []
+  "total": 50,
+  "updated": "2026-08-24T01:54:12.973Z",
+  "missions": [
+    {
+      "zone": "canny_valley",
+      "pl": "46",
+      "mission": "Evacuate the Shelter",
+      "amount": 50
+    }
+  ]
 }
