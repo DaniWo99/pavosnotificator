@@ -1,5 +1,12 @@
 {
-  "total": 0,
-  "updated": "2026-08-28T11:17:23.696Z",
-  "missions": []
+  "total": 50,
+  "updated": "2026-08-29T06:59:16.158Z",
+  "missions": [
+    {
+      "zone": "🌲 Stonewood",
+      "pl": "5",
+      "mission": "Retrieve the Data",
+      "amount": 50
+    }
+  ]
 }
