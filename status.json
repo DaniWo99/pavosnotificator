@@ -1,12 +1,5 @@
 {
-  "total": 50,
-  "updated": "2026-09-03T04:16:35.154Z",
-  "missions": [
-    {
-      "zone": "canny_valley",
-      "pl": "52",
-      "mission": "Retrieve the Data",
-      "amount": 50
-    }
-  ]
+  "total": 0,
+  "updated": "2026-09-04T04:23:08.187Z",
+  "missions": []
 }
