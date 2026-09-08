@@ -1,23 +1,11 @@
 {
-  "total": 150,
-  "updated": "2026-09-07T04:28:57.178Z",
+  "total": 50,
+  "updated": "2026-09-08T04:27:13.832Z",
   "missions": [
     {
-      "zone": "🌲 Stonewood",
-      "pl": "19",
-      "mission": "Retrieve the Data",
-      "amount": 50
-    },
-    {
-      "zone": "canny_valley",
-      "pl": "52",
-      "mission": "Repair The Shelter",
-      "amount": 50
-    },
-    {
       "zone": "twine_peaks",
-      "pl": "100",
-      "mission": "Repair The Shelter",
+      "pl": "82",
+      "mission": "Ride the Lightning",
       "amount": 50
     }
   ]
