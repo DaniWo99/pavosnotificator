@@ -1,10 +1,10 @@
 {
   "total": 50,
-  "updated": "2026-09-09T04:33:23.776Z",
+  "updated": "2026-09-10T04:32:58.716Z",
   "missions": [
     {
-      "zone": "twine_peaks",
-      "pl": "88",
+      "zone": "canny_valley",
+      "pl": "52",
       "mission": "Fight Category 4 Storm",
       "amount": 50
     }
