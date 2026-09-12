@@ -1,17 +1,11 @@
 {
-  "total": 100,
-  "updated": "2026-09-11T04:30:46.545Z",
+  "total": 50,
+  "updated": "2026-09-12T04:27:24.420Z",
   "missions": [
     {
-      "zone": "🌲 Stonewood",
-      "pl": "19",
-      "mission": "Fight the Storm",
-      "amount": 50
-    },
-    {
-      "zone": "canny_valley",
-      "pl": "70",
-      "mission": "Fight Category 3 Storm",
+      "zone": "twine_peaks",
+      "pl": "108",
+      "mission": "Repair The Shelter",
       "amount": 50
     }
   ]
