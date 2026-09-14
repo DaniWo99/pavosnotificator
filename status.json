@@ -1,5 +1,18 @@
 {
-  "total": 0,
-  "updated": "2026-09-13T04:39:44.611Z",
-  "missions": []
+  "total": 100,
+  "updated": "2026-09-14T04:48:12.487Z",
+  "missions": [
+    {
+      "zone": "canny_valley",
+      "pl": "52",
+      "mission": "Fight Category 3 Storm",
+      "amount": 50
+    },
+    {
+      "zone": "twine_peaks",
+      "pl": "124",
+      "mission": "Ride the Lightning",
+      "amount": 50
+    }
+  ]
 }
