@@ -1,17 +1,17 @@
 {
   "total": 100,
-  "updated": "2026-09-17T04:46:18.009Z",
+  "updated": "2026-09-18T04:35:27.396Z",
   "missions": [
     {
       "zone": "canny_valley",
-      "pl": "52",
-      "mission": "Repair The Shelter",
+      "pl": "58",
+      "mission": "Retrieve the Data",
       "amount": 50
     },
     {
-      "zone": "twine_peaks",
-      "pl": "140",
-      "mission": "Fight Category 4 Storm",
+      "zone": "canny_valley",
+      "pl": "46",
+      "mission": "Fight Category 2 Storm",
       "amount": 50
     }
   ]
