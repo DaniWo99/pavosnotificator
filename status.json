@@ -1,17 +1,11 @@
 {
-  "total": 100,
-  "updated": "2026-09-18T04:35:27.396Z",
+  "total": 50,
+  "updated": "2026-09-19T04:31:24.816Z",
   "missions": [
     {
-      "zone": "canny_valley",
-      "pl": "58",
+      "zone": "twine_peaks",
+      "pl": "140",
       "mission": "Retrieve the Data",
-      "amount": 50
-    },
-    {
-      "zone": "canny_valley",
-      "pl": "46",
-      "mission": "Fight Category 2 Storm",
       "amount": 50
     }
   ]
