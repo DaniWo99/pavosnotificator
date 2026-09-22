@@ -1,5 +1,12 @@
 {
-  "total": 0,
-  "updated": "2026-09-21T04:48:22.027Z",
-  "missions": []
+  "total": 50,
+  "updated": "2026-09-22T04:46:37.261Z",
+  "missions": [
+    {
+      "zone": "🌿 Plankerton",
+      "pl": "28",
+      "mission": "Fight the Storm",
+      "amount": 50
+    }
+  ]
 }
