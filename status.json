@@ -1,30 +1,5 @@
 {
-  "total": 200,
-  "updated": "2026-09-25T04:49:18.393Z",
-  "missions": [
-    {
-      "zone": "canny_valley",
-      "pl": "64",
-      "mission": "Evacuate the Shelter",
-      "amount": 50
-    },
-    {
-      "zone": "canny_valley",
-      "pl": "70",
-      "mission": "Repair The Shelter",
-      "amount": 50
-    },
-    {
-      "zone": "twine_peaks",
-      "pl": "94",
-      "mission": "Ride the Lightning",
-      "amount": 50
-    },
-    {
-      "zone": "twine_peaks",
-      "pl": "132",
-      "mission": "Retrieve the Data",
-      "amount": 50
-    }
-  ]
+  "total": 0,
+  "updated": "2026-09-26T04:49:53.558Z",
+  "missions": []
 }
