@@ -1,11 +1,29 @@
 {
-  "total": 50,
-  "updated": "2026-10-08T05:54:19.432Z",
+  "total": 200,
+  "updated": "2026-10-09T06:00:35.384Z",
   "missions": [
     {
+      "zone": "🌿 Plankerton",
+      "pl": "28",
+      "mission": "Repair The Shelter",
+      "amount": 50
+    },
+    {
       "zone": "canny_valley",
-      "pl": "58",
-      "mission": "Fight Category 2 Storm",
+      "pl": "64",
+      "mission": "Ride the Lightning",
+      "amount": 50
+    },
+    {
+      "zone": "twine_peaks",
+      "pl": "94",
+      "mission": "Fight Category 3 Storm",
+      "amount": 50
+    },
+    {
+      "zone": "twine_peaks",
+      "pl": "100",
+      "mission": "Repair The Shelter",
       "amount": 50
     }
   ]
