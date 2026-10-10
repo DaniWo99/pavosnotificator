@@ -1,29 +1,17 @@
 {
-  "total": 200,
-  "updated": "2026-10-09T06:00:35.384Z",
+  "total": 100,
+  "updated": "2026-10-10T05:43:35.941Z",
   "missions": [
     {
-      "zone": "🌿 Plankerton",
-      "pl": "28",
-      "mission": "Repair The Shelter",
-      "amount": 50
-    },
-    {
-      "zone": "canny_valley",
-      "pl": "64",
-      "mission": "Ride the Lightning",
+      "zone": "🌲 Stonewood",
+      "pl": "15",
+      "mission": "Ride The Lightning",
       "amount": 50
     },
     {
       "zone": "twine_peaks",
       "pl": "94",
-      "mission": "Fight Category 3 Storm",
-      "amount": 50
-    },
-    {
-      "zone": "twine_peaks",
-      "pl": "100",
-      "mission": "Repair The Shelter",
+      "mission": "Retrieve the Data",
       "amount": 50
     }
   ]
