@@ -1,17 +1,11 @@
 {
-  "total": 100,
-  "updated": "2026-10-16T04:22:57.131Z",
+  "total": 50,
+  "updated": "2026-10-17T04:16:23.148Z",
   "missions": [
     {
-      "zone": "🌿 Plankerton",
-      "pl": "28",
+      "zone": "canny_valley",
+      "pl": "52",
       "mission": "Retrieve the Data",
-      "amount": 50
-    },
-    {
-      "zone": "twine_peaks",
-      "pl": "124",
-      "mission": "Repair The Shelter",
       "amount": 50
     }
   ]
