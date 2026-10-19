@@ -1,11 +1,23 @@
 {
-  "total": 50,
-  "updated": "2026-10-18T04:21:27.384Z",
+  "total": 150,
+  "updated": "2026-10-19T04:31:33.914Z",
   "missions": [
     {
-      "zone": "canny_valley",
-      "pl": "64",
-      "mission": "Fight the Storm",
+      "zone": "🌿 Plankerton",
+      "pl": "46",
+      "mission": "Fight Category 3 Storm",
+      "amount": 50
+    },
+    {
+      "zone": "twine_peaks",
+      "pl": "82",
+      "mission": "Ride the Lightning",
+      "amount": 50
+    },
+    {
+      "zone": "twine_peaks",
+      "pl": "140",
+      "mission": "Fight Category 4 Storm",
       "amount": 50
     }
   ]
