@@ -1,24 +1,5 @@
 {
-  "total": 150,
-  "updated": "2026-10-19T04:31:33.914Z",
-  "missions": [
-    {
-      "zone": "🌿 Plankerton",
-      "pl": "46",
-      "mission": "Fight Category 3 Storm",
-      "amount": 50
-    },
-    {
-      "zone": "twine_peaks",
-      "pl": "82",
-      "mission": "Ride the Lightning",
-      "amount": 50
-    },
-    {
-      "zone": "twine_peaks",
-      "pl": "140",
-      "mission": "Fight Category 4 Storm",
-      "amount": 50
-    }
-  ]
+  "total": 0,
+  "updated": "2026-10-20T04:41:02.643Z",
+  "missions": []
 }
