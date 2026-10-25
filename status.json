@@ -1,17 +1,11 @@
 {
-  "total": 100,
-  "updated": "2026-10-24T04:28:12.565Z",
+  "total": 50,
+  "updated": "2026-10-25T04:31:56.068Z",
   "missions": [
     {
       "zone": "canny_valley",
-      "pl": "58",
+      "pl": "46",
       "mission": "Repair The Shelter",
-      "amount": 50
-    },
-    {
-      "zone": "canny_valley",
-      "pl": "70",
-      "mission": "Evacuate the Shelter",
       "amount": 50
     }
   ]
