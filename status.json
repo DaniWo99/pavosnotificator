@@ -1,11 +1,17 @@
 {
-  "total": 50,
-  "updated": "2026-10-25T04:31:56.068Z",
+  "total": 100,
+  "updated": "2026-10-26T04:37:01.109Z",
   "missions": [
     {
-      "zone": "canny_valley",
-      "pl": "46",
-      "mission": "Repair The Shelter",
+      "zone": "🌲 Stonewood",
+      "pl": "5",
+      "mission": "Fight the Storm",
+      "amount": 50
+    },
+    {
+      "zone": "🌿 Plankerton",
+      "pl": "40",
+      "mission": "Retrieve the Data",
       "amount": 50
     }
   ]
