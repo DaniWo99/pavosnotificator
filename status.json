@@ -1,17 +1,17 @@
 {
   "total": 100,
-  "updated": "2026-10-30T05:37:20.974Z",
+  "updated": "2026-10-31T05:28:25.812Z",
   "missions": [
     {
-      "zone": "canny_valley",
-      "pl": "58",
+      "zone": "twine_peaks",
+      "pl": "88",
       "mission": "Evacuate the Shelter",
       "amount": 50
     },
     {
       "zone": "twine_peaks",
-      "pl": "82",
-      "mission": "Fight Category 2 Storm",
+      "pl": "116",
+      "mission": "Evacuate the Shelter",
       "amount": 50
     }
   ]
