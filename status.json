@@ -1,5 +1,24 @@
 {
-  "total": 0,
-  "updated": "2026-11-09T06:10:42.870Z",
-  "missions": []
+  "total": 150,
+  "updated": "2026-11-10T07:07:58.268Z",
+  "missions": [
+    {
+      "zone": "🌿 Plankerton",
+      "pl": "34",
+      "mission": "Retrieve the Data",
+      "amount": 50
+    },
+    {
+      "zone": "canny_valley",
+      "pl": "46",
+      "mission": "Fight Category 2 Storm",
+      "amount": 50
+    },
+    {
+      "zone": "twine_peaks",
+      "pl": "94",
+      "mission": "Fight Category 3 Storm",
+      "amount": 50
+    }
+  ]
 }
