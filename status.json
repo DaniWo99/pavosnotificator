@@ -1,11 +1,11 @@
 {
   "total": 50,
-  "updated": "2026-11-11T06:00:19.304Z",
+  "updated": "2026-11-12T07:01:26.732Z",
   "missions": [
     {
-      "zone": "canny_valley",
-      "pl": "52",
-      "mission": "Repair The Shelter",
+      "zone": "twine_peaks",
+      "pl": "76",
+      "mission": "Ride the Lightning",
       "amount": 50
     }
   ]
