@@ -1,5 +1,12 @@
 {
-  "total": 0,
-  "updated": "2026-11-20T07:03:03.135Z",
-  "missions": []
+  "total": 50,
+  "updated": "2026-11-21T06:56:59.442Z",
+  "missions": [
+    {
+      "zone": "canny_valley",
+      "pl": "46",
+      "mission": "Fight the Storm",
+      "amount": 50
+    }
+  ]
 }
