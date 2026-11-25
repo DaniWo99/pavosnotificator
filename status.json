@@ -1,12 +1,5 @@
 {
-  "total": 50,
-  "updated": "2026-11-24T09:44:38.765Z",
-  "missions": [
-    {
-      "zone": "twine_peaks",
-      "pl": "88",
-      "mission": "Fight Category 3 Storm",
-      "amount": 50
-    }
-  ]
+  "total": 0,
+  "updated": "2026-11-25T08:19:54.503Z",
+  "missions": []
 }
